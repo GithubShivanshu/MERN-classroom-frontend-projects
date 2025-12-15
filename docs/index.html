@@ -1,15 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MERN Classroom Projects</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MERN Classroom Projects</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 40px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .card h3 {
+      margin: 0 0 10px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #555;
+    }
+
+    .card a {
+      margin-top: 15px;
+      text-decoration: none;
+      background: navy;
+      color: white;
+      padding: 8px;
+      text-align: center;
+      border-radius: 5px;
+    }
+
+    .card a:hover {
+      background: #000080cc;
+    }
+    p{
+        text-align: justify;
+        font-style: italic;
+    }
+  </style>
 </head>
 <body>
-    <h1>MERN Classroom Projects</h1>
-    <ul>
-        <li><a href="./random-shape-generator/index.html">Random Shape Generator</a></li>
-    </ul>
-    
+
+  <h1>My Classroom Projects</h1>
+
+  <div class="projects">
+    <div class="card">
+      <h3>Random Shape Generator</h3>
+      <p>
+        Generates circles, squares, rectangles, and triangles dynamically using HTML, CSS, and JavaScript.
+      </p>
+      <a href="./random-shape-generator/index.html">View Project</a>
+    </div>
+
+    <!-- Additional project cards can be added here -->
+  </div>
+
 </body>
 </html>
