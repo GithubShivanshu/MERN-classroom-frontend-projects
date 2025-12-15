@@ -21,7 +21,9 @@ An interactive tool that dynamically generates shapes based on user input.
 
 ### Preview
 
-![Random Shape Generator](docs/assets/3.png)
+![Image1](docs/random-shape-generator/assets/1.png)
+![Image2](docs/random-shape-generator/assets/2.png)
+![Image3](docs/random-shape-generator/assets/3.png)
 
 
 
